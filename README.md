@@ -2,6 +2,13 @@
 A package used to the get the Full Pythonic Dictionary Path of the Search key .
 
 ## How to use
+
+To install the package
+
+```Bash
+pip install find-dict-path
+```
+
 _After installing the package use following import:_ <br>
 
 ```Python

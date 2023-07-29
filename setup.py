@@ -12,7 +12,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/pyleo-1998/find-dict-path",
-    author="Ritik",
+    author="Ritik Gupta",
     author_email="ritik.g1998@gmail.com",
     license="MIT",
     classifiers=[
