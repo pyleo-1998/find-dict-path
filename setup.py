@@ -11,7 +11,7 @@ setup(
     packages=find_packages(where="app"),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ArjanCodes/2023-package",
+    url="https://github.com/pyleo-1998/find-dict-path",
     author="Ritik",
     author_email="ritik.g1998@gmail.com",
     license="MIT",
@@ -20,5 +20,8 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Operating System :: OS Independent",
     ],
+    extras_require={
+        "dev": ["pytest>=7.0", "twine>=4.0.2"],
+    },
     python_requires=">=3.5",
 )
