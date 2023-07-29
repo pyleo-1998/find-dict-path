@@ -6,10 +6,10 @@ search_key = 'phone'
 
 search_path_finder_from_dict = Find_Dict_Path()
 
-full_path = search_path_finder_from_dict.get_full_path(search_key_from_dict,'propEmbed')
+full_path = search_path_finder_from_dict.get_full_path(search_key_from_dict,search_key)
 
 print(full_path)
 
-full_path = search_path_finder_from_dict.get_full_path(search_key_from_dict,'propEmbed',find_first_occurance=False)
+full_path = search_path_finder_from_dict.get_full_path(search_key_from_dict,search_key,find_first_occurance=False)
 
 print(full_path)

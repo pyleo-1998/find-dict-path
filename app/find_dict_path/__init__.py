@@ -1,3 +1,2 @@
-from find_dict_path import (
-    Find_Dict_Path
-)
+from .find_dict_path import Find_Dict_Path
+

@@ -13,7 +13,7 @@ search_key = 'phone'
 
 search_path_finder_from_dict = Find_Dict_Path()
 
-full_path = search_path_finder_from_dict.get_full_path(search_dict,'propEmbed')
+full_path = search_path_finder_from_dict.get_full_path(search_key_from_dict,search_key)
 
 print(full_path)
 
@@ -24,7 +24,7 @@ print(full_path)
 _If you wants to get path in every occurrence of the list within dictionary then we can use `find_first_occurance=False` by default it is set as True _ <br>
 
 ```Python
-full_path = search_path_finder_from_dict.get_full_path(search_dict,'propEmbed',find_first_occurance=False)
+full_path = search_path_finder_from_dict.get_full_path(search_key_from_dict,search_key,find_first_occurance=False)
 
 print(full_path)
 
