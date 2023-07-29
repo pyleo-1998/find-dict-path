@@ -11,7 +11,7 @@ setup(
     packages=find_packages(where="app"),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ArjanCodes/2023-package",
+    url="https://github.com/pyleo-1998/find-dict-path",
     author="Ritik",
     author_email="ritik.g1998@gmail.com",
     license="MIT",
