@@ -21,7 +21,7 @@ print(full_path)
  
 ```
 
-_If you wants to get path in every occurrence of the list within dictionary then we can use `find_first_occurance=False` by default it is set as True _ <br>
+_If you wants to get path in every occurrence of the list within dictionary then we can use `find_first_occurance=False` by default it is set as True_ <br>
 
 ```Python
 full_path = search_path_finder_from_dict.get_full_path(search_key_from_dict,search_key,find_first_occurance=False)
