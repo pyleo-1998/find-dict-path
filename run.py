@@ -1,17 +1,15 @@
-from idgenerator import (
-    generate_password,
-    generate_guid,
-    generate_credit_card_number,
-    generate_object_id,
-    generate_pin_number,
-)
+from find_dict_path import Find_Dict_Path
 
-print(generate_password(length=8))
+search_key_from_dict = {"full name":"Brendan Stiedemann","address":{"street":{"colony":"Reinger Inc","extra_info":[{"date":"2023-05-06"},{"uuid":"6eca8033-ba89-4db2-bdb1-c2e0a4f6e0e6"},{"phone":"615-335-1131"}]}}} 
 
-print(generate_guid())
+search_key = 'phone'
 
-print(generate_credit_card_number(length=16))
+search_path_finder_from_dict = Find_Dict_Path()
 
-print(str(generate_pin_number(length=4)))
+full_path = search_path_finder_from_dict.get_full_path(search_key_from_dict,'propEmbed')
 
-print(generate_object_id())
+print(full_path)
+
+full_path = search_path_finder_from_dict.get_full_path(search_key_from_dict,'propEmbed',find_first_occurance=False)
+
+print(full_path)
